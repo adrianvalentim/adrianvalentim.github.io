@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "adrian"
 title_right   : "valentim" # default: ""
-description   : "Math student"
+description   : ""
 keywords      : "mathematics, matemática, philosophy, filosofia."
 url           : https://adrianvalentim.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
