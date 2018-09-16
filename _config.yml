@@ -27,7 +27,7 @@ sass:
   style     : compressed # expanded
 
 # Author settings
-author:
+author: "Adrian Valentim"
   name     : "Adrian Valentim"
 
 plugins:
