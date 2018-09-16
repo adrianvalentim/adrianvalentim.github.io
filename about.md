@@ -3,5 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Pure math undergraduate of the Federal University of Santa Catarina, software developer, and avid reader of philosophy.
