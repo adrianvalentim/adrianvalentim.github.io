@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://adrianvalentim.github.io/post/papermod/papermod-installation/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/post/papermod/papermod-features/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://adrianvalentim.github.io/</loc>
     <lastmod>2022-01-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -44,28 +38,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adrianvalentim.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://adrianvalentim.github.io/tags/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/post/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/series/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://adrianvalentim.github.io/fr/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adrianvalentim.github.io/series/"
                 />
   </url><url>
     <loc>https://adrianvalentim.github.io/tags/privacy/</loc>
@@ -123,6 +95,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adrianvalentim.github.io/search/"
+                />
+  </url><url>
+    <loc>https://adrianvalentim.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adrianvalentim.github.io/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adrianvalentim.github.io/series/"
                 />
   </url>
 </urlset>
