@@ -12,7 +12,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adrianvalentim.github.io/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,17 +24,11 @@
                 href="https://adrianvalentim.github.io/"
                 />
   </url><url>
-    <loc>https://adrianvalentim.github.io/tags/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adrianvalentim.github.io/post/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>https://adrianvalentim.github.io/tags/mathematics/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adrianvalentim.github.io/post/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -45,6 +39,34 @@
                 hreflang="en"
                 href="https://adrianvalentim.github.io/post/"
                 />
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/real-analysis/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/post/real-analysis-of-a-single-variable/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://adrianvalentim.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://adrianvalentim.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/series/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/post/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adrianvalentim.github.io/series/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
@@ -57,19 +79,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://adrianvalentim.github.io/series/"
-                />
-  </url><url>
-    <loc>https://adrianvalentim.github.io/tags/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://adrianvalentim.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://adrianvalentim.github.io/tags/"
                 />
   </url><url>
     <loc>https://adrianvalentim.github.io/categories/</loc>
