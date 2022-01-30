@@ -46,7 +46,6 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
             buttons:
                 - name: Blog
                   url: posts
@@ -66,12 +65,6 @@ languages:
                 - name: Series
                   url: series
                   weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
 
 
 
@@ -87,7 +80,7 @@ params:
     author: Adrian Valentim
     # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
+    defaultTheme: light
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
