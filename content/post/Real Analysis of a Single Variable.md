@@ -2,7 +2,7 @@
 author: "Adrian Valentim"
 title: "Real Analysis of a Single Variable"
 date: "2022-01-29"
-description: "Real analysis"
+description: "Problems covering the most important subjects of real analysis of a single variable."
 tags: ["mathematics", "real-analysis"]
 ShowToc: true
 TocOpen: true
