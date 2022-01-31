@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adrianvalentim.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adrianvalentim.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Lightning Speed Setup for Lightning Speed LaTeX</title>
+      <link>https://adrianvalentim.github.io/post/lightning-speed-latex/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adrianvalentim.github.io/post/lightning-speed-latex/</guid>
+      <description>My LaTeX setup.</description>
+    </item>
+    
     <item>
       <title>Real Analysis of a Single Variable</title>
       <link>https://adrianvalentim.github.io/post/real-analysis-of-a-single-variable/</link>
