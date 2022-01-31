@@ -13,7 +13,7 @@ math: true
 
 1. **Let $a_n$ be a sequence over $R$ that converges to $L$. Is any subsequence of $a_n$ also convergent to $L$?**
 
-2. **Let $a_n$ be a sequence over $$R$$ that converges to \(L\). It is true that, for any other $M \in \mathbb{R}$, we have $|a_n - L| < |a_n - M|$, if $n$ is sufficiently large?**
+2. **Let $a_n$ be a sequence over $R$ that converges to $L$. It is true that, for any other $M \in \mathbb{R}$, we have $|a_n - L| < |a_n - M|$, if $n$ is sufficiently large?**
 
 3. **Let $x_n \geq 0.$ If $\left(x_{n}\right) \rightarrow x$. Show that $\left(\sqrt{x_{n}}\right) \rightarrow \sqrt{x}$.**
 
