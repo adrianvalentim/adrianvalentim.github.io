@@ -7,7 +7,6 @@ tags: ["mathematics", "latex"]
 ShowToc: true
 TocOpen: true
 math: true
-[draft]
 ---
 
 Wherein I provide a ridiculously easy to set up approach to write LaTeX as fast as your heart's desire. 
