@@ -8,13 +8,16 @@ ShowToc: true
 TocOpen: true
 math: true
 ---
+**THIS IS STILL A DRAFT!**
 
-Wherein I provide a ridiculously easy to set up approach to write LaTeX as fast as your heart's desire. 
+*Wherein I provide a ridiculously easy to set up approach to write LaTeX as fast as your heart's desire.* 
+
 
 
 **Objective:** To be able to write LaTeX symbols as fast as you can type.
 
 **Time required to set up**: 5 minutes besides the time required to read the article.
+
 
 Years ago I was part of a group of students who were responsible for writing solutions for the local Mathematical Olympiad practicing problems. Every single week I cursed my destiny writing every single character for every single LaTeX expression for every single function, integral, matrix, etc. Worst, in the myriad of symbols, backslashes, and dollar signs, it was easy to make silly mistakes that would inevitably come to hunt me in the near future. There must be a better way.
 
@@ -38,6 +41,6 @@ Before I explain further, let's first convince ourselves (in case we still have 
 
 Eventually all this code would turn to just this: 
 
-$\lim _{x \rightarrow x_0} f(x)=L \iff \forall \varepsilon > 0 , \exists \delta >0:$ $0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.$ 
+$\lim _{x \rightarrow x_0} f(x)=L \iff \forall \varepsilon > 0 , \exists \delta >0: \\ 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.$ 
 
 Too many characters to represent just a few symbols. 
