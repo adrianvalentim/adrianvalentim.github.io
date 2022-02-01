@@ -51,11 +51,11 @@ Too many characters to represent just a few symbols. Here is where AutoHotKey co
 
 Some other examples:
 
-int + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```
-sum + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```
-set + <kbd>TAB</kbd>:  ```\mathbb{ }```
-imply + <kbd>TAB</kbd>:  ```\Rightarrow```
-eps + <kbd>TAB</kbd>:  ```\varepsilon```
+int + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```  
+sum + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```  
+set + <kbd>TAB</kbd>:  ```\mathbb{ }```  
+imply + <kbd>TAB</kbd>:  ```\Rightarrow```  
+eps + <kbd>TAB</kbd>:  ```\varepsilon```  
 
 You can go wild with those. You can set ```doc``` + <kbd>TAB</kbd> to start your whole document, import libraries, begin{document}, \maketitle and all of that. Are you writing an article and continuously repeating the same equation? Just make a shortcut for it on the fly. Are you repeatedly writing that the proof follows from the Weierstrass Theorem while not being so hot on the spelling of German of names? Just make a macro for every possible misspelling of Wieretrass (I mean, Wieerertrass) that you can possibly write. The supremum of the possibilities is only your imagination.
 
