@@ -7,7 +7,7 @@ tags: ["mathematics", "latex"]
 ShowToc: true
 TocOpen: true
 math: true
-url: https://adrian.computer/speed-latex
+url: \latex
 ---
 
 ## Defining the problems
