@@ -45,7 +45,7 @@ Before I explain further, let's first convince ourselves (in case we still have 
 
 Eventually all this code would turn to just this: 
 
-We say that $\lim _{x \rightarrow x_0} f(x)=L$ \iff \forall \varepsilon > 0 , \exists \delta >0 such that 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.
+We say that $ \lim_{x \rightarrow x_0}f(x)=L$ \iff \forall \varepsilon > 0 , \exists \delta >0 such that 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.
 
 Too many characters to represent just a few symbols. Here is where AutoHotKey comes in. We can set key short words to give us any arbitrary number of characters. For example, when I write ```lim``` and press <kbd>TAB</kbd> it magically turns into ```\lim _{x  \rightarrow }``` with my cursor conveniently waiting right before the last curly bracket, ready for me to type the value for which $x$ is tending to. 
 
@@ -123,7 +123,7 @@ If, however, you are writing an article that needs to become a standard LaTeX PD
 
 Typora is a minimalist and elegant markdown editor. You just open a file, select your theme and start writing. No distractions. Typora will automatically render the LaTeX as you write your math between dollars signs. There are a couple of official themes (and many community ones) to select from, and almost all of them are beautiful. You can export your files as LaTeX code or directly as a PDF.
 
-It's very difficult to beat Typora on the user-experience side of writing a single file. Differently from Obsidian, though, Typora doesn't help you manage or link your files. Also, Typora is not free anymore, and it costs (at the time of writing) one payment of $15. To download, head to the [Typora website](https://typora.io/) and follow the arrows.
+It's very difficult to beat Typora on the user-experience side of writing a single file. Differently from Obsidian, though, Typora doesn't help you manage or link your files. Also, Typora is not free anymore, and it costs (at the time of writing) one payment of 15 dollars. To download, head to the [Typora website](https://typora.io/) and follow the arrows.
 
 ### Overleaf
 

@@ -7,6 +7,7 @@ tags: ["mathematics", "real-analysis"]
 ShowToc: true
 TocOpen: true
 math: true
+url: /real-analysis
 ---
 
 ### Sequences
