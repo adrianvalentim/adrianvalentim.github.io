@@ -25,13 +25,13 @@ To summarize, I had three main problems:
 
 **Problem 1**. Typing LaTeX commands for math symbols takes too much time.
 
-**Problem 2**. Seeing the code instead of the actual symbols can disturb the austere mathematical mind. 
+**Problem 2**. Seeing the code instead of the actual symbols can disturb the austere mathematical mind.
 
 **Problem 3.** You cannot just select and copy the LaTeX from the resources you want to use. You have to tediously retype everything.
 
-After a couple of months of complaining, I managed to find a solution for the first two problems using Emacs and a bunch of mods. I could now write mathematical theorems as fast as someone could talk. The thing is that I possibly spend more time tinkering my Emacs than I would be writing normal LaTeX for a month. 
+After a couple of months of complaining, I managed to find a solution for the first two problems using Emacs and a bunch of mods. I could now write mathematical theorems as fast as someone could talk. The thing is that I possibly spend more time tinkering my Emacs than I would be writing normal LaTeX for a month.
 
-While Emacs is one of the most famous and customizable text editors out there, and maybe for the power user this is still the best way to go, I would never be able to put "lightning speed setup" and Emacs on the same phrase unironically. Besides, most of you are probably using Windows, and installing Emacs and its friends on Windows can be extra troublesome. Fortunately for you, in the last year I've been using some more friendly options that, although not as sophisticated as my heavily modded and finely tuned Emacs, get the job done and done fast. 
+While Emacs is one of the most famous and customizable text editors out there, and maybe for the power user this is still the best way to go, I would never be able to put "lightning speed setup" and Emacs on the same phrase unironically. Besides, most of you are probably using Windows, and installing Emacs and its friends on Windows can be extra troublesome. Fortunately for you, in the last year I've been using some more friendly options that, although not as sophisticated as my heavily modded and finely tuned Emacs, get the job done and done fast.
 
 ## Solution to Problem 1: AutoHotKey is your new best friend
 AutoHotKey is free and open-source software and scripting language in which you can automate all sorts of things. In this article, we will be concerned only with a small fraction of AutoHotKey potential, that is, the option of setting text shortcuts.
@@ -43,19 +43,19 @@ Before I explain further, let's first convince ourselves (in case we still have 
 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon
 ```
 
-Eventually all this code would turn to just this: 
+Eventually all this code would turn to just this:
 
 $ \lim_{x \rightarrow x_0}f(x)=L \iff \forall \varepsilon > 0 , \exists \delta >0: 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.$
 
-Too many characters to represent just a few symbols. Here is where AutoHotKey comes in. We can set key short words to give us any arbitrary number of characters. For example, when I write ```lim``` and press <kbd>TAB</kbd> it magically turns into ```\lim _{x  \rightarrow }``` with my cursor conveniently waiting right before the last curly bracket, ready for me to type the value for which $x$ is tending to. 
+Too many characters to represent just a few symbols. Here is where AutoHotKey comes in. We can set key short words to give us any arbitrary number of characters. For example, when I write ```lim``` and press <kbd>TAB</kbd> it magically turns into ```\lim _{x  \rightarrow }``` with my cursor conveniently waiting right before the last curly bracket, ready for me to type the value for which $x$ is tending to.
 
 Some other examples:
 
-int + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```
-sum + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```
-set + <kbd>TAB</kbd>:  ```\mathbb{ }```
-imply + <kbd>TAB</kbd>:  ```\Rightarrow```
-eps + <kbd>TAB</kbd>:  ```\varepsilon```
+int + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```  
+sum + <kbd>TAB</kbd>:  ```\sum_{i= }^{ } _{i}=```  
+set + <kbd>TAB</kbd>:  ```\mathbb{ }```  
+imply + <kbd>TAB</kbd>:  ```\Rightarrow```  
+eps + <kbd>TAB</kbd>:  ```\varepsilon```  
 
 You can go wild with those. You can set ```doc``` + <kbd>TAB</kbd> to start your whole document, import libraries, begin{document}, \maketitle and all of that. Are you writing an article and continuously repeating the same equation? Just make a shortcut for it on the fly. Are you repeatedly writing that the proof follows from the Weierstrass Theorem while not being so hot on the spelling of German of names? Just make a macro for every possible misspelling of Wieretrass (I mean, Wieerertrass) that you can possibly write. The supremum of the possibilities is only your imagination.
 
@@ -63,7 +63,7 @@ You can go wild with those. You can set ```doc``` + <kbd>TAB</kbd> to start your
 
 To start, go to the [AutoHotKey website](https://www.autohotkey.com/) and click on the big download button, open the .exe file and click next until is installed. Afterward, you can right-click anywhere on your desktop and see on the "New" menu the option "AutoHotKey script".  Do it. A new file will be created on your desktop, open it with Notepad or with your text editor of choice. This is where you're going to write your new shining macros.
 
-Below I'm providing some of my shortcuts to help you begin. Copy and paste the code on the text window you just opened, deleting anything else that was already there. This language can seem a bit complicated at first, but it's intuitive and easy to pick up. I'll briefly explain some shortcuts so you can easily create your own. 
+Below I'm providing some of my shortcuts to help you begin. Copy and paste the code on the text window you just opened, deleting anything else that was already there. This language can seem a bit complicated at first, but it's intuitive and easy to pick up. I'll briefly explain some shortcuts so you can easily create your own.
 
 ```AutoHotKey
 #Hotstring C O
@@ -72,7 +72,7 @@ Below I'm providing some of my shortcuts to help you begin. Copy and paste the c
 
 ::lm::$${left}
 
-::mb::$$$${left 2} 
+::mb::$$$${left 2}
 
 ::frac::\frac{{}{}}{{}{}}{left 3}
 
@@ -89,13 +89,13 @@ Below I'm providing some of my shortcuts to help you begin. Copy and paste the c
 ::dint:: \int_{a}^{b}  \, dx{left 5}
 ```
 
-Hotstring is the term AutoHotKey uses to refer to those text shortcuts we were talking about. The first line ```#Hotstring C O``` sets two global settings for all the Hotstrings on this document, C and O. The former makes the abbreviations case sensitive, i.e., Lim will not serve to trigger our lim shortcut. The latter tells AutoHotKey to omit the triggering key, this way we can use <kbd>Space</kbd> to trigger our shortcut without any space being actually typed in the moment. 
+Hotstring is the term AutoHotKey uses to refer to those text shortcuts we were talking about. The first line ```#Hotstring C O``` sets two global settings for all the Hotstrings on this document, C and O. The former makes the abbreviations case sensitive, i.e., Lim will not serve to trigger our lim shortcut. The latter tells AutoHotKey to omit the triggering key, this way we can use <kbd>Space</kbd> to trigger our shortcut without any space being actually typed in the moment.
 
 The second line sets the triggering key. In my script the key is <kbd>TAB</kbd> which is represented by the ``` `t ```. You can, of course, change that at will. For how to set other keys, refer to the [documentation on Hotstrings](https://www.autohotkey.com/docs/Hotstrings.htm).
 
-Finally, we come to the important part. The code here follows a simple pattern. You put the shortcut between ```::``` and the resulting text right after. Notice how the code ```::eps::\varepsilon``` means that after typing eps and pressing <kbd>TAB</kbd>, eps will be substituted by \varepsilon. We also have some special commands there. In the code ```::lm::$${left}```, {left} means that after ```lm``` is substituted by ```$$``` the cursor will moonwalk one character left, nicely stopping right where I want to write my inline math. Moreover, ```{left 3}``` is asking the script to go left three times. Reasoning by analogy, we can easily identify the purpose of ```{space}```. 
+Finally, we come to the important part. The code here follows a simple pattern. You put the shortcut between ```::``` and the resulting text right after. Notice how the code ```::eps::\varepsilon``` means that after typing eps and pressing <kbd>TAB</kbd>, eps will be substituted by \varepsilon. We also have some special commands there. In the code ```::lm::$${left}```, {left} means that after ```lm``` is substituted by ```$$``` the cursor will moonwalk one character left, nicely stopping right where I want to write my inline math. Moreover, ```{left 3}``` is asking the script to go left three times. Reasoning by analogy, we can easily identify the purpose of ```{space}```.
 
-But wait, what about all those curly brackets? The thing is that curly brackets are a special use character on this scripting language, hence, if you want your script to print actual curly brackets you need to put them between curly brackets. That is, ```{{}abc{}}``` will produce ```{abc}``` as text. 
+But wait, what about all those curly brackets? The thing is that curly brackets are a special use character on this scripting language, hence, if you want your script to print actual curly brackets you need to put them between curly brackets. That is, ```{{}abc{}}``` will produce ```{abc}``` as text.
 
 That's it. You're now prepared to start creating your own shortcuts. If you still want more, the AHK documentation has everything you'll want to know.
 
@@ -107,13 +107,13 @@ AutoHotKey is a software only available for Windows. Mercifully, we have a simil
 
 Remember that what we want here is to be able to see the rendered LaTeX expression right on our text editor as we type. Trust me, it makes all the difference. Nowadays I sometimes think about problems and theorems writing directly in LaTeX, something I would never comfortably do if I was seeing the code `\int_{a}^{b} f(x) \, dx` instead of the beautiful squiggly curves of the integral sign.
 
-There are many plugins for famous text editors that try to do this with varying rates of success, but I'll instead present three options that come ready to work without any tinkering. 
+There are many plugins for famous text editors that try to do this with varying rates of success, but I'll instead present three options that come ready to work without any tinkering.
 
 ### Obsidian
 
-Obsidian is a free knowledge base software and markdown text editor. As was the case with AutoHotKey, Obsidian has many other powerful use cases other than the LaTeX rendering we want. 
+Obsidian is a free knowledge base software and markdown text editor. As was the case with AutoHotKey, Obsidian has many other powerful use cases other than the LaTeX rendering we want.
 
-To start you just head to the [Obsidian website](https://obsidian.md/) and download the newest version. Obsidian is available on Windows, MacOS, and Linux. Next, next, install. Open Obsidian and click to create a new Vault -- this is where Obsidian will store your markdown files. Go to Settings > Editor > Default Editing Mode and make sure that the "Live Preview" option is selected. Now just create a new file and it's math time. 
+To start you just head to the [Obsidian website](https://obsidian.md/) and download the newest version. Obsidian is available on Windows, MacOS, and Linux. Next, next, install. Open Obsidian and click to create a new Vault -- this is where Obsidian will store your markdown files. Go to Settings > Editor > Default Editing Mode and make sure that the "Live Preview" option is selected. Now just create a new file and it's math time.
 
 If plan to write personal notes, it will be difficult to find an option better than Obsidian. You have many theme options, community plugins, and custom options. You can create internal links between your notes and navigate through a graph view. You can also quickly export any file as a PDF.
 
@@ -127,7 +127,7 @@ It's very difficult to beat Typora on the user-experience side of writing a sing
 
 ### Overleaf
 
-You probably already know this one, so I'll be brief. Overleaf is an online text editor created specifically for LaTeX files. It's free for personal use but has many subscription options for extended features. 
+You probably already know this one, so I'll be brief. Overleaf is an online text editor created specifically for LaTeX files. It's free for personal use but has many subscription options for extended features.
 
 Open the [Overleaf website](https://www.overleaf.com/), create an account, and open a new file. You'll see a Rich Text option above your editor. Using it, most of your math symbols will be rendered inline. It doesn't work for all LaTeX expressions you may type, and in this case, you'll see the code as you normally would.
 
@@ -135,9 +135,9 @@ If you want to write an assignment, test, or anything that needs to be on your p
 
 ## Solution to Problem 3: Thank you for existing, MathPix.
 
-MathPix is a free image recognizing and file converter software made for math expressions. Using it you can convert any PDF or image file directly to LaTeX. Or even better, you can select any particular expression on your screen instantly convert it to LaTeX. 
+MathPix is a free image recognizing and file converter software made for math expressions. Using it you can convert any PDF or image file directly to LaTeX. Or even better, you can select any particular expression on your screen instantly convert it to LaTeX.
 
-Want to copy a part of the PDF you're reading to your personal notes? Just press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> and select the part you want. Do you want to scavenge a problem from an old book physical and give it to your students? Install the mobile app on your phone and just scan it with your phone. Tell me if that's not the most beautiful thing you read today. 
+Want to copy a part of the PDF you're reading to your personal notes? Just press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> and select the part you want. Do you want to scavenge a problem from an old book physical and give it to your students? Install the mobile app on your phone and just scan it with your phone. Tell me if that's not the most beautiful thing you read today.
 
 To finally feel true happiness, head to the [MathPix website](https://mathpix.com/), create your free account, and download for your OS of choice. Alternatively, you can find the app wherever you usually go to download them. Now go convert some images.
 
@@ -145,11 +145,11 @@ To finally feel true happiness, head to the [MathPix website](https://mathpix.co
 
 It's just a matter of getting used to the shortcuts before you start writing mathematics faster in LaTeX than you would on paper. Still, what about the illustrations, diagrams, graphs, and scribbles you can easily draw on your paper notes? There are fast ways to make the process of creating an image and adding it in PDF format to your notes. It's just that I don't have any tools to make the setup process fast. The method I use takes time to tinker with, but the result is worth it.
 
-A couple of years ago, there was a post about how a math student took notes on classes using LaTeX all through his undergraduate studies that went viral on the internet. Even some groups at my University were talking about it. The setup used Vim and some mods to make something equivalent to what I used to do with Emacs. His workflow admittedly looked better although it was harder to set up. However, what really impressed me about the way he took notes was his process for creating mathematical illustrations fast. Really fast. And how beautiful they all looked. 
+A couple of years ago, there was a post about how a math student took notes on classes using LaTeX all through his undergraduate studies that went viral on the internet. Even some groups at my University were talking about it. The setup used Vim and some mods to make something equivalent to what I used to do with Emacs. His workflow admittedly looked better although it was harder to set up. However, what really impressed me about the way he took notes was his process for creating mathematical illustrations fast. Really fast. And how beautiful they all looked.
 
 [Here is the link](https://castel.dev/post/lecture-notes-2/) for his article. Although his method assumes you're using Vim, adapting it using AutoHotKey and any of the above text editors is possible, and the best option for quick illustrations that I know of. I may come back to this point at another time and expand the steps to make such an adaptation.
 
-## Final Thoughts 
+## Final Thoughts
 
 Sometimes I get the urge to knock on every door of my university's mathematics department and tell this gospel to every math professor I can find. The amount of time you can save by using a setup like this is palpable. It's more time to think, to prove, and to write. But it's not just about time. Imagine if every mathematician wrote more of their personal notes on LaTeX instead of paper. Imagine having some of those notes available on the internet. How cool would that be?
 
