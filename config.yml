@@ -120,6 +120,8 @@ params:
           url: "https://ko-fi.com/adrianvalentim"
         - name: RsS
           url: "index.xml"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/adrianvalentim"
 
     editPost:
         URL: ""
