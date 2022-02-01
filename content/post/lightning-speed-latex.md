@@ -9,7 +9,7 @@ TocOpen: true
 math: true
 url: /speed-latex
 ---
-
+![[adrian-computer-latex 1.png]]
 ## Defining the problems
 
 **Objective:** To be able to write LaTeX symbols as fast as you can type.
