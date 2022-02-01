@@ -45,7 +45,7 @@ Before I explain further, let's first convince ourselves (in case we still have 
 
 Eventually all this code would turn to just this: 
 
-We say $\lim _{x \rightarrow x_0} f(x)=L \iff \forall \varepsilon > 0 , \exists \delta >0$ such that $0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon$.
+We say that $\lim _{x \rightarrow x_0} f(x)=L$ \iff \forall \varepsilon > 0 , \exists \delta >0 such that 0<\left|x-x_{0}\right|<\delta \Longrightarrow|f(x)-L|<\varepsilon.
 
 Too many characters to represent just a few symbols. Here is where AutoHotKey comes in. We can set key short words to give us any arbitrary number of characters. For example, when I write ```lim``` and press <kbd>TAB</kbd> it magically turns into ```\lim _{x  \rightarrow }``` with my cursor conveniently waiting right before the last curly bracket, ready for me to type the value for which $x$ is tending to. 
 
