@@ -115,13 +115,13 @@ params:
             Science and Philosophy.
     socialIcons:
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/adrianvalentim"
         - name: KoFi
           url: "https://ko-fi.com/adrianvalentim"
-        - name: RsS
-          url: "index.xml"
         - name: buymeacoffee
           url: "https://www.buymeacoffee.com/adrianvalentim"
+        - name: RsS
+          url: "index.xml"
 
     editPost:
         URL: ""
