@@ -117,7 +117,7 @@ params:
         - name: github
           url: "https://github.com/"
         - name: KoFi
-          url: ""
+          url: "https://ko-fi.com/adrianvalentim"
         - name: RsS
           url: "index.xml"
 
