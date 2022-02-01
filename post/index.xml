@@ -21,21 +21,12 @@
     </item>
     
     <item>
-      <title>Real Analysis of a Single Variable</title>
+      <title>[DRAFT] Master Problem Set: Real Analysis of a Single Variable</title>
       <link>https://adrianvalentim.github.io/real-analysis/</link>
       <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://adrianvalentim.github.io/real-analysis/</guid>
       <description>Problems covering the most important subjects of real analysis of a single variable.</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://adrianvalentim.github.io/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://adrianvalentim.github.io/post/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
     </item>
     
   </channel>
