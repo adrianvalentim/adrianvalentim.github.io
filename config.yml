@@ -2,6 +2,7 @@ baseURL: https://adrianvalentim.github.io/
 languageCode: en-us
 title: adrian valentim
 theme: "PaperMod"
+disqusShortname: adrian_valentim
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -92,7 +93,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     math: true
-    # comments: false
+    comments: true
     images: ["papermod-cover.png"]
 
     profileMode:
