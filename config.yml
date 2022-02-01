@@ -32,9 +32,9 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+          #      - name: Categories
+          #        url: categories/
+          #        weight: 10
 
     fr:
         languageName: "PT"
@@ -61,9 +61,9 @@ languages:
                 - name: Tags
                   url: tags
                   weight: 10
-                - name: Categories
-                  url: categories
-                  weight: 10
+                #- name: Categories
+                #  url: categories
+                #  weight: 10
                 - name: Series
                   url: series
                   weight: 10
@@ -112,8 +112,8 @@ params:
     homeInfoParams:
         Title: ""
         Content: >
-            This is a collection of my writings. The topics will usually range between Mathematics,
-            Science and Philosophy.
+            This is a collection of my writings on topics ranging from Mathematics to Philosophy and all in between.
+            I have been writing to myself for years to better think and understand what I study. I plan to edit and publish some of those notes here soon.
     socialIcons:
         - name: github
           url: "https://github.com/adrianvalentim"
