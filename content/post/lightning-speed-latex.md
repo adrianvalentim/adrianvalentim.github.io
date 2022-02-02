@@ -27,13 +27,13 @@ images:
 **Time required to set up**: 10 minutes besides the time required to read the article.
 
 
-Years ago I was part of a group of students who were responsible for writing solutions for the local Mathematical Olympiad practicing problems. Every single week I cursed my destiny writing every single character for every single LaTeX expression for every single function, integral, matrix, etc. Worst, in the myriad of symbols, backslashes, and dollar signs, it was easy to make silly mistakes that would inevitably come to hunt me in the near future.
+Years ago I was part of a group responsible for writing solutions for the local Mathematical Olympiad practicing problems. Every single week I cursed my destiny writing every single character for every single LaTeX expression for every single function, integral, matrix, etc. Worst, in the myriad of symbols, backslashes, and dollar signs, it was easy to make silly mistakes that would inevitably come to hunt me in the near future.
 
 Another common source of grief was having to retype the LaTeX for a particular problem we choose from a PDF or book. Short of emailing the author, there was no way to get the source code for a math expression. Please, not the 3x3 Matrix again.
 
-To summarize, I had three main problems:
+To summarize, I had three main problems for which I'll present solutions during this article.
 
-**Problem 1**. Typing LaTeX commands for math symbols takes too much time.
+**Problem 1**. Typing LaTeX commands for math symbols takes too much time:
 
 **Problem 2**. Seeing the code instead of the actual symbols can disturb the austere mathematical mind.
 
