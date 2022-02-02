@@ -8,8 +8,15 @@ ShowToc: true
 TocOpen: true
 math: true
 url: /speed-latex
----
 
+#cover:
+#    image: "/img/speed-latex.png"
+#    alt: "Lightning Speed Latex"
+#    caption: "<Anything>"
+#    relative: false # To use relative path for cover image, used in hugo Page-bundles
+
+---
+![Lightning Speed Latex](/img/speed-latex.png)
 ## Defining the problems
 
 **Objective:** To be able to write LaTeX symbols as fast as you can type.
