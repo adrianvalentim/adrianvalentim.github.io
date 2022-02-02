@@ -8,6 +8,7 @@ ShowToc: true
 TocOpen: true
 math: true
 url: /speed-latex
+image: /img/speed-latex.png
 
 #cover:
 #    image: "/img/speed-latex.png"
