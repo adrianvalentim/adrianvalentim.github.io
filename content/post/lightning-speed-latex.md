@@ -164,4 +164,4 @@ This simple setup also turns LaTeX more accessible. You don't need to remember o
 
 ---
 
-If you think that this article may be useful to someone else, you can easily share it on social media by using the buttons below. If you particularly liked it, consider [buying me a coffee](https://www.buymeacoffee.com/adrianvalentim) or subscribing for free to receive an email when I publish a new article!
+If you particularly liked this article consider [buying me a coffee](https://www.buymeacoffee.com/adrianvalentim) or subscribing below to receive an email when I publish a new article!
