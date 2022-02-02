@@ -137,7 +137,7 @@ If you want to write an assignment, test, or anything that needs to be on your p
 
 MathPix is a free image recognizing and file converter software made for math expressions. Using it you can convert any PDF or image file directly to LaTeX. Or even better, you can select any particular expression on your screen instantly convert it to LaTeX.
 
-Want to copy a part of the PDF you're reading to your personal notes? Just press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> and select the part you want. Do you want to scavenge a problem from an old book physical and give it to your students? Install the mobile app on your phone and just scan it with your phone. Tell me if that's not the most beautiful thing you read today.
+Want to copy a part of the PDF you're reading to your personal notes? Just press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>M</kbd> and select the part you want. Do you want to scavenge a problem from an old physical book and give it to your students? Install the mobile app on your phone and just scan it with your phone. Tell me if that's not the most beautiful thing you read today.
 
 To finally feel true happiness, head to the [MathPix website](https://mathpix.com/), create your free account, and download for your OS of choice. Alternatively, you can find the app wherever you usually go to download them. Now go convert some images.
 
