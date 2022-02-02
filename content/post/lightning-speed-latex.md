@@ -11,6 +11,8 @@ url: /speed-latex
 images: 
     - /img/speed-latex.png
     - /speed-latex.png
+    - /latexlogo.png
+    - /img/latexlogo.png
 
 #cover:
 #    image: "/img/speed-latex.png"
