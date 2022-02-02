@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://adrianvalentim.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://adrianvalentim.github.io/fr/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://adrianvalentim.github.io/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/latex/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/mathematics/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/post/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/tags/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/speed-latex/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/archives.fr/</loc>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/archives/</loc>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/categories/</loc>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/search/</loc>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/search.fr/</loc>
+  </url><url>
+    <loc>https://adrianvalentim.github.io/series/</loc>
+  </url>
+</urlset>
