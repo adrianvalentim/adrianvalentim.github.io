@@ -169,4 +169,4 @@ This simple setup also turns LaTeX more accessible. You don't need to remember o
 
 ---
 
-If you particularly liked this article consider [buying me a coffee](https://www.buymeacoffee.com/adrianvalentim) or subscribing below to receive an email when I publish a new article!
+If you particularly liked this article consider [buying me a coffee](https://ko-fi.com/adrianvalentim) or subscribing below to receive an email when I publish a new article!

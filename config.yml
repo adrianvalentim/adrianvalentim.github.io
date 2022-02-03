@@ -120,10 +120,10 @@ params:
           url: "https://github.com/adrianvalentim"
         - name: twitter
           url: "https://twitter.com/adrian_valentim"
-    #    - name: KoFi
-    #      url: "https://ko-fi.com/adrianvalentim"
-        - name: buymeacoffee
-          url: "https://www.buymeacoffee.com/adrianvalentim"
+        - name: KoFi
+          url: "https://ko-fi.com/adrianvalentim"
+    #    - name: buymeacoffee
+    #      url: "https://www.buymeacoffee.com/adrianvalentim"
         - name: RsS
           url: "index.xml"
 
